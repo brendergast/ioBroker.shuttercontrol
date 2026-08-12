@@ -995,6 +995,60 @@
                                         </div>
                                     </div>
                                 </li>
+                                 <li>
+    <div class="collapsible-header">
+        <i class="material-icons">expand_more</i><h6 class="translate">Lamellenneigung (Slat)</h6>
+    </div>
+    <div class="collapsible-body">
+        <div class="row">
+            <div class="col s12 m6 l6 input-field">
+                <input type="checkbox" id="slatEnabled" class="value" />
+                <label for="slatEnabled" class="translate">Lamellensteuerung aktiv</label>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col s12 m6 l6 input-field">
+                <input type="text" class="value" id="slatId" />
+                <label for="slatId" class="translate"></label>
+                <span class="translate">Object-ID targetPosition (Soll-Neigung)</span>
+            </div>
+            <div class="col s12 m6 l6 input-field">
+                <input type="text" class="value" id="slatCurrentId" />
+                <label for="slatCurrentId" class="translate"></label>
+                <span class="translate">Object-ID slatPosition (Ist-Neigung)</span>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col s12 l2 input-field">
+                <input type="number" class="value" id="slatHeightUp" min=0 max=100 />
+                <label for="slatHeightUp" class="translate"></label>
+                <span class="translate">Neigung bei "auf"</span>
+            </div>
+            <div class="col s12 l2 input-field">
+                <input type="number" class="value" id="slatHeightDown" min=0 max=100 />
+                <label for="slatHeightDown" class="translate"></label>
+                <span class="translate">Neigung bei "zu"</span>
+            </div>
+            <div class="col s12 l2 input-field">
+                <input type="number" class="value" id="slatHeightDownSun" min=0 max=100 />
+                <label for="slatHeightDownSun" class="translate"></label>
+                <span class="translate">Neigung bei Sonnenschutz</span>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col s12 l3 input-field">
+                <input type="number" class="value" id="slatWaitTimeout" min=0 />
+                <label for="slatWaitTimeout" class="translate"></label>
+                <span class="translate">Timeout Warten auf Lamelle (ms)</span>
+            </div>
+            <div class="col s12 l3 input-field">
+                <input type="number" class="value" id="slatWaitInterval" min=0 />
+                <label for="slatWaitInterval" class="translate"></label>
+                <span class="translate">Poll-Intervall Warten auf Lamelle (ms)</span>
+            </div>
+        </div>
+    </div>
+</li>
 
                                 <li>
                                     <div class="collapsible-header">
