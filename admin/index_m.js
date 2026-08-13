@@ -179,6 +179,26 @@ function load(settings, onChange) {
         });
     });
 
+    $('#slatIdPopUp').on('click', function () {
+        initSelectId(function (sid) {
+            sid.selectId('show', $('#slatId').val(), function (newId) {
+                if (newId) {
+                    $('#slatId').val(newId).trigger('change');
+                }
+            });
+        });
+    });
+
+    $('#heightCurrentIdPopUp').on('click', function () {
+        initSelectId(function (sid) {
+            sid.selectId('show', $('#heightCurrentId').val(), function (newId) {
+                if (newId) {
+                    $('#heightCurrentId').val(newId).trigger('change');
+                }
+            });
+        });
+    });
+
     $('#HolidayDPPopUp').on('click', function () {
         initSelectId(function (sid) {
             sid.selectId('show', $('#HolidayDP').val(), function (newId) {
