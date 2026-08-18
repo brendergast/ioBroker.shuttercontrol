@@ -100,10 +100,10 @@
                                             <th data-name="slatEnabled" id="events_col_50" style="width: 0px" data-style="width: 0px" data-type="checkbox" class="translate">slatEnabled</th>
                                             <th data-name="slatId" id="events_col_51" data-type="text" style="width: 0px" class="translate">slatId</th>
                                             <th data-name="slatHeightUp" id="events_col_53" data-type="number" style="width: 0px" class="translate">slatHeightUp</th>
-                                            <th data-name="slatHeightDown" id="events_col_54" data-type="number" style="width: 0px" class="translate">slatHeightDown</th>
-                                            <th data-name="slatHeightDownSun" id="events_col_55" data-type="number" style="width: 0px" class="translate">slatHeightDownSun</th>
-                                            <th data-name="slatWaitTimeout" id="events_col_56" data-type="number" style="width: 0px" class="translate">slatWaitTimeout</th>
-                                            <th data-name="slatWaitInterval" id="events_col_57" data-type="number" style="width: 0px" class="translate">slatWaitInterval</th>
+                                            <th data-name="slatHeightDown" id="events_col_70" data-type="number" style="width: 0px" class="translate">slatHeightDown</th>
+                                            <th data-name="slatHeightDownSun" id="events_col_71" data-type="number" style="width: 0px" class="translate">slatHeightDownSun</th>
+                                            <th data-name="slatWaitTimeout" id="events_col_72" data-type="number" style="width: 0px" class="translate">slatWaitTimeout</th>
+                                            <th data-name="slatWaitInterval" id="events_col_73" data-type="number" style="width: 0px" class="translate">slatWaitInterval</th>
                                             <th data-name="heightCurrentId" id="events_col_60" data-type="text" style="width: 0px" class="translate">heightCurrentId</th>
                                             <th data-name="heightWaitTimeout" id="events_col_61" data-type="number" style="width: 0px" class="translate">heightWaitTimeout</th>
                                             <th data-name="triggerState" id="events_col_20" style="width: 0px" data-style="width: 0px" data-type="text" class="translate">State from Trigger</th>
@@ -1014,12 +1014,18 @@
                 <label for="slatId" class="translate"></label>
                 <span class="translate">Object-ID slatPosition (Soll- und Ist-Neigung, ein State)</span>
             </div>
+            <div class="col s1 m2 l1">
+                <a id="slatIdPopUp" class="btn-floating waves-effect waves-light blue table-button-add trigger-add"><i class="material-icons">add</i></a>
+            </div>
         </div>
         <div class="row">
             <div class="col s12 m6 l6 input-field">
                 <input type="text" class="value" id="heightCurrentId" />
                 <label for="heightCurrentId" class="translate"></label>
                 <span class="translate">Object-ID aktuelle Höhe (Ist-Position Rollo, für Wartelogik vor der Lamelle)</span>
+            </div>
+            <div class="col s1 m2 l1">
+                <a id="heightCurrentIdPopUp" class="btn-floating waves-effect waves-light blue table-button-add trigger-add"><i class="material-icons">add</i></a>
             </div>
         </div>
         <div class="row">
