@@ -1,10 +1,10 @@
 {
   "name": "iobroker.shuttercontrol",
-  "version": "2.0.12",
+  "version": "2.0.xx",
   "description": "Automatic control for shutters",
   "author": {
-    "name": "simatec",
-    "email": "shuttercontrol@simateccloud.de"
+    "name": "simatec_mod_brendergast",
+    "email": "@.de"
   },
   "homepage": "https://github.com/simatec/ioBroker.shuttercontrol",
   "license": "MIT",
