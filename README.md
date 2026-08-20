@@ -18,10 +18,6 @@
 This adapter uses the service Sentry.io to automatically report exceptions and code errors and new device schemas to me as the developer. More details see below!
 
 
-**If you like it, please consider a donation:**
-  
-[![paypal](https://www.paypalobjects.com/en_US/DK/i/btn/btn_donateCC_LG.gif)](https://paypal.me/mk1676)
-
 
 ## shuttercontrol adapter for ioBroker
 
@@ -47,7 +43,7 @@ When the adapter crashes or an other Code error happens, this error message that
 ## Changelog
 <!-- ### __WORK IN PROGRESS__ -->
 ### __WORK IN PROGRESS__
-* (simatec) Update dependabot
+* (brendergast) added slat control
 
 ### 2.0.12 (2026-02-21)
 * (simatec) License updated
