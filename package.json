@@ -4,7 +4,7 @@
   "description": "Automatic control for shutters",
   "author": {
     "name": "simatec_mod_brendergast",
-    "email": "@.de"
+    "email": "brendergast@googlemail.com"
   },
   "homepage": "https://github.com/simatec/ioBroker.shuttercontrol",
   "license": "MIT",
