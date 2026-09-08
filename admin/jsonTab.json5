@@ -179,7 +179,6 @@
           color: '#d6d5d4',
           height: '1px',
           xs: 12,
-          narrow: true,
           addColon: true,
           highlight: true,
           sm: 12,
@@ -657,6 +656,7 @@
             },
             {
               type: 'state',
+              attr: 'shutterLevel',
               oid: '${data.name}',
               foreign: true,
               width: '14%',
@@ -667,6 +667,7 @@
             },
             {
               type: 'state',
+              attr: 'slatLevel',
               oid: '${data.slatId}',
               foreign: true,
               width: '14%',
